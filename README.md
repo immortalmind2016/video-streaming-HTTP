@@ -3,7 +3,8 @@ this is a video streaming nodejs example based on HTTP protocol
 
 # You should read about Nodejs stream types
   here i'm using readable stream to read data from (video) , and pipe method to write data into the writable stream which is response of the express GET route
-  []
+  [NodeJS Docs](#nodejs) 
+  <a id="#nodejs" href="https://nodejs.org/api/stream.html"></a>
 # Idea
 as we know that the `<Video></Video>` element inside HTML expected to receive a video streaming as data chunks 
 
