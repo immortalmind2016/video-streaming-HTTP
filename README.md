@@ -1,6 +1,8 @@
 # Video Streaming Using Nodejs
 this is a video streaming nodejs example based on HTTP protocol
 
+# You should read about Nodejs stream types
+  here i'm using readable stream to read data from (video) , and pipe method to write data into the writable stream which is response of the express GET route
 # Idea
 as we know that the `<Video></Video>` element inside HTML expected to receive a video streaming as data chunks 
 
@@ -13,5 +15,6 @@ as we know that the `<Video></Video>` element inside HTML expected to receive a 
         "Accept-Ranges": "bytes",
         "Content-Length": "2000000",
         "Content-Type": "video/mp4",
-      };```
+      };
+    ```
 - So the client/video element will render the rest of the video based on this response header data
